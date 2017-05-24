@@ -1,0 +1,61 @@
+{
+  "name": "Drywall",
+  "version": "0.18.1",
+  "private": true,
+  "scripts": {
+    "start": "grunt"
+  },
+  "author": "Reza Akhavan <jedireza@gmail.com> (http://reza.akhavan.me/)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "async": "*",
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "compression": "*",
+    "connect-mongo": "*",
+    "cookie-parser": "*",
+    "csurf": "*",
+    "emailjs": "*",
+    "express": "*",
+    "express-session": "*",
+    "helmet": "*",
+    "jade": "*",
+    "method-override": "*",
+    "mongoose": "4.x.x",
+    "morgan": "*",
+    "passport": "0.3.x",
+    "passport-facebook": "*",
+    "passport-github": "*",
+    "passport-google-oauth": "*",
+    "passport-local": "*",
+    "passport-oauth": "*",
+    "passport-tumblr": "*",
+    "passport-twitter": "*",
+    "serve-static": "1.10.x",
+    "underscore": "*"
+  },
+  "devDependencies": {
+    "backbone": "*",
+    "bootstrap": "3.x.x",
+    "font-awesome": "4.x.x",
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-concurrent": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-newer": "*",
+    "grunt-nodemon": "0.4.x",
+    "html5shiv": "3.x.x",
+    "jquery": "*",
+    "jquery.cookie": "*",
+    "moment": "*",
+    "respond.js": "*"
+  }
+}
